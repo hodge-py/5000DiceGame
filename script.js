@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 class BuildGame{
 
     constructor(){
@@ -11,8 +13,8 @@ class BuildGame{
     }
 
     players(){
-        this.players = prompt("How many players?");
-        console.log(this.players);
+        this.players = prompt("How many players? ");
+        
     }
 
 }
